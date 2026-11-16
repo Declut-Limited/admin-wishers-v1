@@ -27,10 +27,10 @@ const GROUPS: { title: string; fields: { key: NumberKey; label: string; hint?: s
     {
         title: "Amounts (₦)",
         fields: [
-            { key: "minGoalAmount", label: "Minimum goal" },
-            { key: "maxGoalAmount", label: "Maximum goal" },
-            { key: "maxGoalAmountDigits", label: "Goal amount digits", hint: "Longest number the app accepts" },
-            { key: "minContributionAmount", label: "Minimum contribution" },
+            { key: "minGoalAmount", label: "Minimum goal Amount" },
+            { key: "maxGoalAmount", label: "Maximum goal Amount" },
+            { key: "maxGoalAmountDigits", label: "Goal amount in digits", hint: "Longest number the app accepts" },
+            { key: "minContributionAmount", label: "Minimum contribution amount" },
         ],
     },
     {
