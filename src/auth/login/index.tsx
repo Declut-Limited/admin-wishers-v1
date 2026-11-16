@@ -47,7 +47,7 @@ export default function Login() {
                         <p className="mt-1.5 text-muted-foreground">Sign in to manage users, wishlists and payments.</p>
                     </div>
                     <FormField id="email" label="Email">
-                        <Input id="email" type="email" autoComplete="email" placeholder="admin@wishers.app" value={email} onChange={(e) => setEmail(e.target.value)} className="h-11" autoFocus />
+                        <Input id="email" type="email" autoComplete="email" placeholder="admin@wishers.com.ng" value={email} onChange={(e) => setEmail(e.target.value)} className="h-11" autoFocus />
                     </FormField>
                     <FormField id="password" label="Password">
                         <PasswordInput id="password" autoComplete="current-password" placeholder="Enter your password" value={password} onChange={(e) => setPassword(e.target.value)} />
